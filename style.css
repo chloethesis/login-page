@@ -49,6 +49,11 @@ body {
     transform: translateY(-50%);
     left: 5px; /* icon position */
     height: 30px;
+    user-select: none;
+  }
+  
+  img { 
+  	user-select: none;
   }
   
   ::-webkit-input-placeholder {
@@ -84,6 +89,10 @@ input,
 .button {
   width: 100%;
   padding: 20px;
+}
+
+input[type=text] {
+  width: 100%;  
 }
 
 .button {
